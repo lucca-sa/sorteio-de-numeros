@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="./scripts.js"></script>
+    <title>Sorteador Online</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <img src="./assets/dados.png" alt="Dados" class="img-dados">
+
+
+        <div class="container">
+            <h1>Sorteador Online</h1>
+
+            <h3>Sortear um número entre:</h3>
+            <div class="div-inputs-minmax">
+                <input type="number" class="input-min" placeholder="1º Número">
+                <p>e</p>
+                <input type="number" class="input-max" placeholder="2º Número">
+            </div>
+            <p>Seu número sorteado é:</p>
+            <input type="text" class="input-result" placeholder="Resultado" readonly>
+            <button class="sortear-button" onclick="generateNumber()">Sortear</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

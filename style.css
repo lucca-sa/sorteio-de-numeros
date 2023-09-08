@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: url(./assets/background.jpg);
+    background-size: 1920px 1080px;
+}
+
+
+.img-dados {
+    width: 300px;
+    position: relative;
+    bottom: 130px;
+    margin-top: 40px;
+}
+
+.container {
+    color: white;
+    position: relative;
+    bottom: 50px;
+    background: rgba(0, 0, 0, .8);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px 30px 0 30px;
+
+}
+
+.div-inputs-minmax {
+    display: flex;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 30px;
+    font-size: 20px;
+    width: 130px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-result {
+   
+    margin: 0 auto;
+    margin-top: 10px;
+    display: block;
+
+}
+
+input::placeholder {
+    font-size: 18px;
+    text-align: center;
+    opacity: 0.5;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin: 30px 0 20px 0;
+    font-weight: 400;
+}
+
+p {
+    margin: 0 20px;
+    font-size: 1.17em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.sortear-button {
+    display: block;
+    color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    background: #2D2D2D;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.sortear-button:hover {
+    opacity: 0.8;
+}
+
+.sortear-button:active {
+    opacity: 0.5;
+}
+
+
+@media screen and (max-width: 900px) {
+    input {
+        width: 80px;
+    }
+
+    .img-dados {
+        width: 200px;
+    }
+
+    input::placeholder {
+        font-size: 13px;
+    }
+
+    
+}
