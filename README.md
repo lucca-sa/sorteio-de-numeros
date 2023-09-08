@@ -3,7 +3,7 @@
 In this project, I designed and developed a website that allows users to generate a random number within a specified range of their choice. This endeavor served as a valuable learning experience, enabling me to hone my skills in HTML, CSS, and JavaScript. Through this project, I aimed to reinforce my understanding of front-end technologies while providing a practical application for users seeking a simple yet effective random number generator. It showcases my dedication to continuous learning and my commitment to creating user-friendly web solutions.
 </br></br></br>
 
-<h3><a href="https://lucca-sa.github.io/weather-forecast/">🔗 Deployed Website 🔗</a></a></h3>
+<h3><a href="https://lucca-sa.github.io/sorteio-de-numeros/">🔗 Deployed Website 🔗</a></a></h3>
 </br>
 <h2>Languages and tools used:</h2>
 </br>
